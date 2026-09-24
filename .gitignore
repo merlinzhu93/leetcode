@@ -1,0 +1,20 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Go test artifacts
+*.test
+coverage.out
+
+# Local editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
